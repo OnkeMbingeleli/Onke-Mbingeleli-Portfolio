@@ -377,34 +377,6 @@ section { padding: 5rem 0; border-bottom: 1px solid var(--border-subtle); }
 .social-icon svg { display: block; }
 .social-icon svg path { fill: currentColor; }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-primary: #0e1218;
-    --bg-surface: #171d26;
-    --primary: #4aa3ff;
-    --accent: #44d6a4;
-    --cta: #f0b429;
-    --text-main: #f5f7fb;
-    --text-body: #d4dde8;
-    --text-muted: #a8b4c5;
-    --btn-primary-text: #10131a;
-    --header-bg: rgba(14, 18, 24, 0.94);
-    --border-subtle: rgba(255, 255, 255, 0.12);
-    --project-img-base: #253345;
-    --hero-photo-tint: #9db7da;
-    --glow: 0 4px 20px rgba(74, 163, 255, 0.2);
-  }
-
-  .menu-toggle {
-    border-color: rgba(74, 163, 255, 0.24);
-    background: var(--bg-surface);
-  }
-
-  .highlight-pill {
-    background: transparent;
-  }
-}
-
 @media (prefers-contrast: more) {
   :root {
     --bg-primary: #ffffff;
@@ -485,16 +457,4 @@ section { padding: 5rem 0; border-bottom: 1px solid var(--border-subtle); }
   .hero-actions .btn, .contact-actions .btn { max-width: 300px; margin: 0 auto; }
   .project-card { min-width: 92vw; }
   .social-links li { align-items: flex-start; }
-}
-
-@media (max-width: 900px) and (prefers-color-scheme: dark) {
-  .nav-links {
-    background: var(--bg-surface);
-    border-color: rgba(255, 255, 255, 0.08);
-    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
-  }
-
-  .nav-links a {
-    background: transparent;
-  }
 }
